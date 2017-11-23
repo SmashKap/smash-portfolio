@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home, #about, #skills, #contact {
+  height: auto;
+}
+
+h2 {
+  font-family: 'Oranienbaum', serif;
+  color: #434949;
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+  line-height: 54px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+}
+
+.fourth-width {
+  width: 25%;
+  margin: 0 auto;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 650px;
+  background-image: url('../img/desk-with-a-cropped.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#logo {
+  padding: 20px;
+}
+
+nav {
+  float: right;
+  padding: 70px 40px 0px 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #434949;
+  padding-left: 80px;
+}
+
+#tagline {
+  padding-top: 200px;
+  padding-right: 80px;
+}
+
+header h1 {
+  color: #1cc2d1;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 72px;
+  padding: 0;
+  text-align: right;
+  text-decoration: none;
+  float: right;
+  margin: 0;
+}
+
+
+header h2 {
+  float: right;
+  text-align: right;
+  }
+
+.blurb-skills {
+  color: #8a9696;
+}
+
+/***** ABOUT *****/
+#about {
+  padding: 3% 2%;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about .half-width {
+  padding: 3%;
+  width: 44%;
+
+}
+
+#about p {
+  font-size: 28px;
+  text-align: justify;
+  line-height: 36px;
+  word-spacing: 5px;
+}
+
+/***** SKILLS *****/
+#skills {
+  padding: 3% 2%;
+  background-color: #ebebeb;
+  clear: both;
+  text-align: center;
+  height: 340px;
+}
+
+#skills .half-width {
+
+}
+
+/***** CONTACT *****/
+footer {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+footer .half-width {
+  padding: inherit;
+}
+
+#contact {
+  clear: both;
+  padding: 3% 2%;
+  height: 340px;
+}
+
+#contact-image {
+  border: 10px solid #8a9696;
+  padding: auto;
+  margin: auto;
+}
+
+#right-side {
+  text-align: left;
+  padding-top: 60px;
+}
+
+#contact a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1cc2d1;
+  font-size: 30px;
+}
